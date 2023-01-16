@@ -8,7 +8,7 @@
 Download the latest RTM version of Softether.  RTM's are preferred over beta versions for stability. At the time of writing these notes the latest version is v4.38-9760-rtm-2021.08.17.
 
 ```powershell
-wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.38-9760-rtm/softether-vpnserver_vpnbridge-v4.38-9760-rtm-2021.08.17-windows-x86_x64-intel.exe
+IWR -UseBasicParsing https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.38-9760-rtm/softether-vpnserver_vpnbridge-v4.38-9760-rtm-2021.08.17-windows-x86_x64-intel.exe -Outfile softether-vpnserver_vpnbridge-v4.38-9760-rtm-2021.08.17-windows-x86_x64-intel.exe
 ```
 
 
