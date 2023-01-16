@@ -1,7 +1,7 @@
 
 # Softether VPN Setup
 
-## Server Setup
+## A Server Setup
 
 ### 01 Download Softether Server
 
@@ -40,6 +40,8 @@ On the next window leave the `Start the Softether VPN Server Manager`  box check
 
 At this stage the setup finished and the Server Manager starts.
 
+#### Define Server Settings
+
 On the 'Connection Settings for VPN Server:'' window, select `Edit Setting`.
 
 On the `Edit localhost (This server) window` , replace localhost (This server) with any name you like, in my case i simply replaced it with `vpnserver`
@@ -60,6 +62,8 @@ On the `SoftEther VPN Server / Bridge Easy Setup` window check only the `Remote 
 
 Click Yes on the message block that asks `The current settings of this VPN Server. Do you really want to do this 
 
+#### Create Hub Name
+
 On the Easy Setup - Decide the Virtual Hub Name  window, a name has been suggested as VPN. You can leave it as is and click `OK`. On my setting is chose the name `myVPNhub`. 
 
 On the `Dynamic DNS Function` window click `Exit`. This is an optional step should you have access to a Dynamic DNS service.
@@ -71,12 +75,16 @@ Click `OK`
 
 On the VPN Azure Service Settings window select `Disable VPN Azure` and click `OK`
 
+#### Create User
+
 On the VPN Easy Setup Tasks window, click on `Create Users`.
 
 On the create New User window complete the details for
 - User Name (example `vpnuser1` )
 - Full Name (example `VPN User 1` )
 Click  `Create Certificate`
+
+#### Create Certificate
 
 On the Create New Certificate window complete the details for
 - Common Name (CN)
@@ -95,6 +103,8 @@ On the Save Certificate and Private key window
 - specify file name for .KEY file to be saved and click `Save`
 Click `OK`
 
+#### Select Bridge Device
+
 On the Manage Users window click on `Exit`
 
 Back on the VPN Easy Setup Tasks window
@@ -107,7 +117,11 @@ On the Documents folder, take note of the certificate and key files. They will b
 
 
 
-## Client Setup
+
+
+
+
+## B Client Setup
 
 ### 01 Download the software
 
@@ -149,9 +163,13 @@ Click `Finish` to complete the installation.
 
 On the `SoftEther VPN Client Manager` window click `Add VPN Connection`.
 
+#### Create Virtual Adapter
+
 Click `Yes` to create the Virtual Network Adapter.
 
 On the `Create New Virtual Network Adapter` window click `OK`
+
+#### Define Connection Settings
 
 Define the connection's Setting Name
 
