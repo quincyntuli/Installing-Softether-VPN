@@ -25,7 +25,7 @@ In my case that address is 192.168.1.105, it will be different on yours.
 ### 03 Run Setup Wizard
 
 On the `Select Software Component to Install` window select `SoftEther VPN Server`
-![[Pasted image 20230117175907.png]]
+![[Pasted image 20230117180612.png]]
 On the `End User License Agreement` window scroll down and read the license agreement and select `I agree to the End User License Agreement` and click `Next` if you agree to the terms of use.
 
 On the `Important Notices` window, scroll down to read the notice and click `Next`
