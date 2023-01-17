@@ -88,7 +88,7 @@ On the create New User window complete the details for
 Click  `Create Certificate`
 ![[Pasted image 20230117185851.png]]
 
-#### Create Certificate
+#### Create Root Certificate
 
 On the Create New Certificate window complete the details for
 - Common Name (CN)
@@ -98,11 +98,13 @@ On the Create New Certificate window complete the details for
 - State
 - Locale
 Click `OK`
+![[Pasted image 20230117190729.png]]
 
 On the Save Certificate and Private key window 
 - select the method Save as X509 Certificate (.CER) and Private Key file (.KEY).
 - Set password for Private Key Protection (example `supersecret` )
 - Click `OK`
+![[Pasted image 20230117191112.png]]
 - specify file name for .CER file to be saved and click `Save`
 - specify file name for .KEY file to be saved and click `Save`
 Click `OK`
@@ -110,6 +112,7 @@ Click `OK`
 #### Select Bridge Device
 
 On the Manage Users window click on `Exit`
+![[Pasted image 20230117191509.png]]
 
 Back on the VPN Easy Setup Tasks window
 - Select the Ethernet device to establish the bridge connection
