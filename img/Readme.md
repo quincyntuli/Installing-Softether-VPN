@@ -74,7 +74,7 @@ On the IPsec / L2TP / EtherIP / L2TPv3 Settings window check the boxes for :
 - `Enable L2TP Server Function (L2TP over IPsec)`
 - `Enable L2TP Server Function (Raw L2TP with No Encryptions)`
 Click `OK`
-
+![[Pasted image 20230117183215.png]]
 On the VPN Azure Service Settings window select `Disable VPN Azure` and click `OK`
 
 #### Create User
