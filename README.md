@@ -100,12 +100,15 @@ On the Create New Certificate window complete the details for
 - State
 - Locale
 Click `OK`
+
+
 ![Create Root Certificate](img/Pasted_image_20230117190729.png)
 
 On the Save Certificate and Private key window 
 - select the method Save as X509 Certificate (.CER) and Private Key file (.KEY).
 - Set password for Private Key Protection (example `supersecret` )
 - Click `OK`
+
 ![Save Certificate](img/Pasted_image_20230117191112.png)
 - specify file name for .CER file to be saved and click `Save`
 - specify file name for .KEY file to be saved and click `Save`
