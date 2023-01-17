@@ -20,7 +20,7 @@ IWR -UseBasicParsing https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/release
 Get-NetIPConfiguration | Select-Object -Property IPv4Address
 ```
 
-In my case that address is 192.168.1.105, it will be different on yours.
+In my case that address is 10.0.2.15, it will be different on yours.
 
 ### 03 Run Setup Wizard
 
@@ -47,7 +47,7 @@ On the 'Connection Settings for VPN Server:'' window, select `Edit Setting`.
 
 On the `Edit localhost (This server) window` , replace localhost (This server) with any name you like, in my case i simply replaced it with `vpnserver`
 
-Replace `localhost` with the IP Address of the computer you have found earlier. In my case that address is 192.168.1.105, it will be different on your system.
+Replace `localhost` with the IP Address of the computer you have found earlier. In my case that address is 10.0.2.15, it will be different on your system.
 
 Type in the password you would like to connect administrator mode. Take note of the password and make a note of it for the future.
 
