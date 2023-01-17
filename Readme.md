@@ -1,5 +1,5 @@
 
-# Softether VPN Setup :-)
+# Softether VPN Setup
 
 ## A Server Setup
 
