@@ -43,7 +43,7 @@ At this stage the setup finished and the Server Manager starts.
 #### Define Server Settings
 
 On the 'Connection Settings for VPN Server:'' window, select `Edit Setting`.
-![[Pasted image 20230117180612.png]]
+![[img/Pasted image 20230117180612.png]]
 
 On the `Edit localhost (This server) window` , replace localhost (This server) with any name you like, in my case i simply replaced it with `vpnserver`
 
