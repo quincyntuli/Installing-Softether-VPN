@@ -81,11 +81,12 @@ On the VPN Azure Service Settings window select `Disable VPN Azure` and click `O
 #### Create User
 
 On the VPN Easy Setup Tasks window, click on `Create Users`.
-
+![[Pasted image 20230117185340.png]]
 On the create New User window complete the details for
 - User Name (example `vpnuser1` )
 - Full Name (example `VPN User 1` )
 Click  `Create Certificate`
+![[Pasted image 20230117185851.png]]
 
 #### Create Certificate
 
