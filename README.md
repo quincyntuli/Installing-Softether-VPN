@@ -43,7 +43,7 @@ At this stage the setup finished and the Server Manager starts.
 #### Define Server Settings
 
 On the 'Connection Settings for VPN Server:'' window, select `Edit Setting`.
-![[Pasted image 20230117175907.png]]
+![Connection Settings](img/Pasted_image_20230117180612.png)
 
 On the `Edit localhost (This server) window` , replace localhost (This server) with any name you like, in my case i simply replaced it with `vpnserver`
 
@@ -60,33 +60,35 @@ Leave the password blank and click `OK`.
 On the `Change Administrator Password` define the new password and click `OK`
 
 On the `SoftEther VPN Server / Bridge Easy Setup` window check only the `Remote Access VPN Server` box and click `Next`.
-![[Pasted image 20230117182329.png]]
+![VPN Setting](img/Pasted_image_20230117182329.png)
 Click Yes on the message block that asks `The current settings of this VPN Server. Do you really want to do this` .
 
 #### Create Hub Name
 
 On the Easy Setup - Decide the Virtual Hub Name  window, a name has been suggested as VPN. You can leave it as is and click `OK`. On my setting is chose the name `myVPNhub`. 
-![[Pasted image 20230117182514.png]]
+![Virtual Hub Name](img/Pasted_image_20230117182514.png)
 On the `Dynamic DNS Function` window click `Exit`. This is an optional step should you have access to a Dynamic DNS service.
-![[Pasted image 20230117182752.png]]
+![Dynamic DNS](img/Pasted_image_20230117182752.png)
 
 On the IPsec / L2TP / EtherIP / L2TPv3 Settings window check the boxes for :
 - `Enable L2TP Server Function (L2TP over IPsec)`
 - `Enable L2TP Server Function (Raw L2TP with No Encryptions)`
 Click `OK`
-![[Pasted image 20230117183215.png]]
+
+![Tunneling Options](img/Pasted_image_20230117183215.png)
+
 On the VPN Azure Service Settings window select `Disable VPN Azure` and click `OK`
-![[Pasted image 20230117183515.png]]
+![Azure VPN](img/Pasted_image_20230117183515.png)
 
 #### Create User
 
 On the VPN Easy Setup Tasks window, click on `Create Users`.
-![[Pasted image 20230117185340.png]]
+![Create Users](img/Pasted_image_20230117185340.png)
 On the create New User window complete the details for
 - User Name (example `vpnuser1` )
 - Full Name (example `VPN User 1` )
 Click  `Create Certificate`
-![[Pasted image 20230117185851.png]]
+![New User](img/Pasted_image_20230117185851.png)
 
 #### Create Root Certificate
 
@@ -98,13 +100,13 @@ On the Create New Certificate window complete the details for
 - State
 - Locale
 Click `OK`
-![[Pasted image 20230117190729.png]]
+![Create Root Certificate](img/Pasted_image_20230117190729.png)
 
 On the Save Certificate and Private key window 
 - select the method Save as X509 Certificate (.CER) and Private Key file (.KEY).
 - Set password for Private Key Protection (example `supersecret` )
 - Click `OK`
-![[Pasted image 20230117191112.png]]
+![Save Certificate](img/Pasted_image_20230117191112.png)
 - specify file name for .CER file to be saved and click `Save`
 - specify file name for .KEY file to be saved and click `Save`
 Click `OK`
@@ -112,15 +114,15 @@ Click `OK`
 #### Select Bridge Device
 
 On the Manage Users window click on `Exit`
-![[Pasted image 20230117191509.png]]
+![Manage Users](img/Pasted_image_20230117191509.png)
 
 Back on the VPN Easy Setup Tasks window
 - Select the Ethernet device to establish the bridge connection
 Click `Close`
-![[Pasted image 20230117192508.png]]
+![Select NIC](img/Pasted_image_20230117192508.png)
 
 Back on the VPN Server Manager screen, delete the listener port 443 if the vpn server will be hosting secure web pages in the future.
-![[Pasted image 20230117193207.png]]
+![Remove Port 443](img/Pasted_image_20230117193207.png)
 
 On the Documents folder, take note of the certificate and key files. They will be required for the Client Installation.
 
