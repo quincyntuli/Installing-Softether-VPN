@@ -53,7 +53,7 @@ Type in the password you would like to connect administrator mode. Take note of 
 
 Click Ok to complete editing the server settings.
 
-Click on `Connect`.
+Select the setting and Click on `Connect`.
 
 Leave the password blank and click `OK`.
 
