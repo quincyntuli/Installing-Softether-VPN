@@ -59,15 +59,16 @@ Leave the password blank and click `OK`.
 
 On the `Change Administrator Password` define the new password and click `OK`
 
-On the `SoftEther VPN Server / Bridge Easy Setup` window check only the `Remote Access VPN Server` box.
-
-Click Yes on the message block that asks `The current settings of this VPN Server. Do you really want to do this 
+On the `SoftEther VPN Server / Bridge Easy Setup` window check only the `Remote Access VPN Server` box and click `Next`.
+![[Pasted image 20230117182329.png]]
+Click Yes on the message block that asks `The current settings of this VPN Server. Do you really want to do this` .
 
 #### Create Hub Name
 
 On the Easy Setup - Decide the Virtual Hub Name  window, a name has been suggested as VPN. You can leave it as is and click `OK`. On my setting is chose the name `myVPNhub`. 
-
+![[Pasted image 20230117182514.png]]
 On the `Dynamic DNS Function` window click `Exit`. This is an optional step should you have access to a Dynamic DNS service.
+![[Pasted image 20230117182752.png]]
 
 On the IPsec / L2TP / EtherIP / L2TPv3 Settings window check the boxes for :
 - `Enable L2TP Server Function (L2TP over IPsec)`
