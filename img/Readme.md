@@ -76,6 +76,7 @@ On the IPsec / L2TP / EtherIP / L2TPv3 Settings window check the boxes for :
 Click `OK`
 ![[Pasted image 20230117183215.png]]
 On the VPN Azure Service Settings window select `Disable VPN Azure` and click `OK`
+![[Pasted image 20230117183515.png]]
 
 #### Create User
 
