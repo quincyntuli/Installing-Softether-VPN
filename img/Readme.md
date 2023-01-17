@@ -117,6 +117,10 @@ On the Manage Users window click on `Exit`
 Back on the VPN Easy Setup Tasks window
 - Select the Ethernet device to establish the bridge connection
 Click `Close`
+![[Pasted image 20230117192508.png]]
+
+Back on the VPN Server Manager screen, delete the listener port 443 if the vpn server will be hosting secure web pages in the future.
+![[Pasted image 20230117193207.png]]
 
 On the Documents folder, take note of the certificate and key files. They will be required for the Client Installation.
 
