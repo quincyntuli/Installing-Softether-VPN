@@ -145,10 +145,10 @@ On the Documents folder, take note of the certificate and key files. They will b
 Download the latest RTM version of Softether.  RTM's are preferred over beta versions for stability. At the time of writing these notes the latest version is v4.38-9760-rtm-2021.08.17.
 
 ```powershell
-wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.38-9760-rtm/softether-vpnclient-v4.38-9760-rtm-2021.08.17-windows-x86_x64-intel.exe
+IWR -UseBasicParsing  https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.38-9760-rtm/softether-vpnclient-v4.38-9760-rtm-2021.08.17-windows-x86_x64-intel.exe -OutFile softether-vpnclient-v4.38-9760-rtm-2021.08.17-windows-x86_x64-intel.exe
 ```
 
-
+![Remove Port 443](img/2023-01-18_00_41_48-oGwini_0.png)
 
 ### 02 Find Your IP Address
 
@@ -159,10 +159,14 @@ Get-NetIPConfiguration | Select-Object -Property IPv4Address
 
 In my case that address is 192.168.1.12, it will be different on yours.
 
+![Remove Port 443](img/2023-01-18_00_28_53-oGwini_0.png)
 
 ### 03 Run Setup Wizard
 
 On the `Select Software Component to Install` window select `SoftEther VPN Client`
+
+![Remove Port 443](img/2023-01-18_00_45_50-oGwini_0.png)
+
 
 On the `End User License Agreement` window scroll down and read the license agreement and select `I agree to the End User License Agreement` and click `Next` if you agree to the terms of use.
 
@@ -182,14 +186,20 @@ On the `SoftEther VPN Client Manager` window click `Add VPN Connection`.
 #### Create Virtual Adapter
 
 Click `Yes` to create the Virtual Network Adapter.
+![Remove Port 443](img/2023-01-18_00_48_57-oGwini_0.png)
+
 
 On the `Create New Virtual Network Adapter` window click `OK`
+
+![Remove Port 443](img/2023-01-18_00_51_21-oGwini_0.png)
 
 #### Define Connection Settings
 
 Define the connection's Setting Name
 
-Define the Host Name or IP Address, this is the IP address of the server we want to connect to. In this example `192.168.1.105`
+![Remove Port 443](img/2023-01-18_00_55_02-oGwini_0.png)
+
+After the virtual network adapter has been created, click on Add VPN Conneection to define the Host Name or IP Address, this is the IP address of the server we want to connect to. In this example `192.168.1.16`
 
 Select Port Number `5555`
 

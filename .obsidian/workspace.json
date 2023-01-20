@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7b6b1e1364e7847c",
+        "id": "e819b74d78504085",
         "type": "tabs",
         "children": [
           {
-            "id": "e3e1c723d8064cb6",
+            "id": "200af7db974493b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,11 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3e1c723d8064cb6",
+  "active": "200af7db974493b1",
   "lastOpenFiles": [
+    "img/2023-01-18_00_55_02-oGwini_0.png",
+    "README.md",
+    "img/2023-01-18.md",
     "img/Pasted_image_20230117182329.png",
     "img/Pasted_image_20230117180612.png",
-    "img/Pasted_image_20230117175907.png",
-    "README.md"
+    "img/Pasted_image_20230117175907.png"
   ]
 }
