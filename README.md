@@ -20,7 +20,7 @@ IWR -UseBasicParsing https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/release
 Get-NetIPConfiguration | Select-Object -Property IPv4Address
 ```
 
-In my case that address is 10.0.2.15, it will be different on yours.
+In my case that address is 192.168.1.17 it will be different on yours.
 
 ### 03 Run Setup Wizard
 
