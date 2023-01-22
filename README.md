@@ -125,7 +125,7 @@ Click `Close`
 ![Select NIC](img/Pasted_image_20230117192508.png)
 
 Back on the VPN Server Manager screen, delete the listener port 443 if the vpn server will be hosting secure web pages in the future.
-![Remove Port 443](img/Pasted_image_20230117193207_2.png)
+![Remove Port 443](img/2023-01-22_17_47_34-oGwini_0.png)
 
 On the Documents folder, take note of the certificate and key files. They will be required for the Client Installation.
 
