@@ -157,9 +157,9 @@ IWR -UseBasicParsing  https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releas
 Get-NetIPConfiguration | Select-Object -Property IPv4Address
 ```
 
-In my case that address is 192.168.1.12, it will be different on yours.
+In my case that address is 192.168.1.116, it will be different on yours.
 
-![Remove Port 443](img/2023-01-18_00_28_53-oGwini_0.png)
+![Remove Port 443](img/2023-01-22_16_19_09-oGwini_0.png)
 
 ### 03 Run Setup Wizard
 
