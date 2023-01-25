@@ -201,7 +201,7 @@ Define the connection's Setting Name
 
 After the virtual network adapter has been created, click on Add VPN Conneection to define the Host Name or IP Address, this is the IP address of the server we want to connect to. In this example `192.168.1.16`
 
-Select Port Number `5555`
+Select Port Number `443`
 
 Select Auth Type as `Client Certificate Authentication`
 
