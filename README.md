@@ -124,7 +124,7 @@ Back on the VPN Easy Setup Tasks window
 Click `Close`
 ![Select NIC](img/Pasted_image_20230117192508.png)
 
-Back on the VPN Server Manager screen, delete the listener port 443 if the vpn server will be hosting secure web pages in the future.
+Back on the VPN Server Manager screen, click Exit.
 ![Remove Port 443](img/2023-01-31_vpn_ip_115.png)
 
 On the Documents folder, take note of the certificate and key files. They will be required for the Client Installation.
@@ -150,18 +150,8 @@ IWR -UseBasicParsing  https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releas
 
 ![Remove Port 443](img/2023-01-18_00_41_48-oGwini_0.png)
 
-### 02 Find Your IP Address
 
-
-```powershell
-Get-NetIPConfiguration | Select-Object -Property IPv4Address
-```
-
-In my case that address is 192.168.1.116, it will be different on yours.
-
-![Remove Port 443](img/2023-01-22_16_19_09-oGwini_0.png)
-
-### 03 Run Setup Wizard
+### 02 Run Setup Wizard
 
 On the `Select Software Component to Install` window select `SoftEther VPN Client`
 
@@ -179,7 +169,7 @@ On the `Ready to Install` window click on `Next`.
 Click `Finish` to complete the installation.
 
 
-### 04 Client Configuration
+### 03 Client Configuration
 
 On the `SoftEther VPN Client Manager` window click `Add VPN Connection`.
 
