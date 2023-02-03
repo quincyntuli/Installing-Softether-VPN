@@ -189,7 +189,7 @@ Define the connection's Setting Name
 
 ![Remove Port 443](img/2023-01-18_00_55_02-oGwini_0.png)
 
-After the virtual network adapter has been created, click on Add VPN Conneection to define the Host Name or IP Address, this is the IP address of the server we want to connect to. In this example `192.168.1.116`
+After the virtual network adapter has been created, click on Add VPN Conneection to define the Host Name or IP Address, this is the IP address of the server we want to connect to. In this example `192.168.1.115`
 
 Select Port Number `443`
 
